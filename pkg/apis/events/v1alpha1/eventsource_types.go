@@ -1136,7 +1136,7 @@ type HDFSEventSource struct {
 	Filter *EventSourceFilter `json:"filter,omitempty" protobuf:"bytes,13,opt,name=filter"`
 }
 
-// IMAPEventSource refers to event-source for HDFS related events
+// IMAPEventSource refers to event-source for IMAP related events
 type IMAPEventSource struct {
 	// HostAddress is the address of the host for IMAP server
 	HostAddress string `json:"hostAddress" protobuf:"bytes,1,opt,name=hostaddress"`

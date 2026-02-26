@@ -35,6 +35,11 @@ func validate(eventSource *v1alpha1.IMAPEventSource) error {
 	if eventSource.HostAddress == "" {
 		return fmt.Errorf("hostAddress must be specified")
 	}
-	// TODO... more
+	if eventSource.Username == nil {
+		return fmt.Errorf("username must be specified")
+	}
+	if eventSource.Password == nil {
+		return fmt.Errorf("password must be specified")
+	}
 	return nil
 }

@@ -119,12 +119,12 @@ spec:
 ## Troubleshoot
 
 1. **Connection Issues**: Verify the hostname and port are correct for your email provider
-2. **Authentication Failures**: 
-   - Ensure you're using the correct credentials
+2. **Authentication Failures**:
+    - Ensure you're using the correct credentials
    - For Gmail, use App Passwords instead of regular passwords
    - Check if 2FA is enabled and properly configured
-3. **No Events Generated**: 
-   - Check if new emails are actually arriving in the INBOX
+3. **No Events Generated**:
+    - Check if new emails are actually arriving in the INBOX
    - Verify the event source pod logs for any errors
    - Ensure the sensor is properly configured to listen for IMAP events
 
